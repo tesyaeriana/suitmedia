@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust the height of the diagonal area */
+    background: linear-gradient(to right bottom, transparent 50%, #fff 50%);
+}
+
+.content {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+h1, p {
+    margin: 0;
+}
+.parallax {
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-out;
+}

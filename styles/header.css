@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.logo img {
+    list-style: none;
+    height: 45px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+}
+
+
+.list-menu, .logo {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.list-menu li {
+    cursor: pointer;
+    color: #ffffff; 
+}
+
+.list-menu li a:visited {
+    color: #ffffff; /* Ganti dengan warna yang sesuai ketika halaman dikunjungi */
+}
+
+.fixed-header.transparent {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
